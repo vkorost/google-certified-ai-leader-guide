@@ -128,7 +128,7 @@ Both are attached to the [latest release](https://github.com/vkorost/google-cert
 - `book/Google-AI-Leader-Certification-Guide-Cover.jpg`: the cover.
 - [`LICENSE`](./LICENSE): CC BY-NC-SA 4.0.
 
-The PDF, EPUB and DOCX are attached to the release instead of committed. All three are already-compressed archives that git cannot delta, so committing them would store a near-complete copy per revision and grow the repository permanently.
+The PDF and EPUB are attached to the release instead of committed. Both are already-compressed archives that git cannot delta, so committing them would store a near-complete copy per revision and grow the repository permanently.
 
 The documentation vault, the pipeline, and the working files are not published. Neither is any exam-question material: [Google's certification terms](https://cloud.google.com/certification/terms) place exam content under confidentiality, and nothing of that kind appears in this book, in this repository, or in any file linked from it.
 

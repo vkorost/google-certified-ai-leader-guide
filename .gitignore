@@ -1,9 +1,12 @@
 ﻿# Built book formats (PDF/EPUB/DOCX).
 #
-# Attached to the GitHub Release rather than committed: they are already-compressed
-# archives that git cannot delta, so every revision would store a near-complete copy
-# and grow the repository permanently. README download links point at
-# /releases/latest/download/, which always resolves to the current build.
+# The PDF and EPUB are attached to the GitHub Release rather than committed: they are
+# already-compressed archives that git cannot delta, so every revision would store a
+# near-complete copy and grow the repository permanently. README download links point
+# at /releases/latest/download/, which always resolves to the current build.
+#
+# The DOCX is ignored but NOT published. It is the build's own output and the file the
+# other two are exported from, so it stays local.
 book/*.pdf
 book/*.epub
 book/*.docx
