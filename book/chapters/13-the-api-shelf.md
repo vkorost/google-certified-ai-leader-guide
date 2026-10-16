@@ -17,10 +17,10 @@ They could prompt a frontier multimodal model to read each one. It would work. O
 | Speech-to-Text | Turns speech into text, and transcribes audio and video content<sup>[2]</sup> |
 | Text-to-Speech | Turns text into natural-sounding speech; voice interfaces and personalised audio<sup>[2]</sup> |
 | Translation API | Language conversion across text, whole documents, web pages, and audio or video files<sup>[2]</sup> |
-| Document Translation API | Translation that **leaves the formatting intact**: headings, tables and page structure survive<sup>[2]</sup> |
-| Document AI | Extracts data from varied document formats, automates capture and processing, can summarise<sup>[2]</sup><sup>[3]</sup> |
-| Cloud Vision API | Analyses image content, tags images by detected objects and text, identifies faces and landmarks<sup>[2]</sup> |
-| Cloud Video Intelligence API | Analyses video content and extracts meaning, for search, recommendation and media analysis<sup>[2]</sup> |
+| Document Translation API | Translation that **leaves the formatting intact**<sup>[2]</sup> |
+| Document AI | Extracts data from varied document formats and automates capture<sup>[2]</sup><sup>[3]</sup> |
+| Cloud Vision API | Analyses images: objects, text, faces and landmarks<sup>[2]</sup> |
+| Cloud Video Intelligence API | Analyses video and extracts meaning, for search and recommendation<sup>[2]</sup> |
 | Natural Language API | Derives insight from unstructured text: sentiment, classification, entity extraction<sup>[2]</sup> |
 
 The blueprint also names the **Google Cloud API Library** as the place these are found, which no question tests and which is worth recognising as the catalogue rather than a product.<sup>[1]</sup>
@@ -56,7 +56,7 @@ An agent's tools have to execute somewhere, and the exam names a small set of pl
 | Cloud Run | Runs containers, serverless, scaling to zero when idle<sup>[4]</sup> | A ready-made container image; bursty or unpredictable traffic |
 | Cloud Functions | Runs a small piece of code on an event<sup>[1]</sup> | Lightweight, event-driven, triggered by something happening |
 | Cloud Storage | Holds files and objects<sup>[1]</sup> | Documents, images, audio, anything unstructured |
-| BigQuery | Queries and analyses at scale; **BigQuery ML trains a model from SQL, where the data already sits**<sup>[5]</sup> | Analysts who know SQL and data already in the warehouse |
+| BigQuery | Analysis at scale. **BigQuery ML trains a model from SQL**<sup>[5]</sup> | Analysts who know SQL, data already in the warehouse |
 
 BigQuery ML deserves the bold, because it answers a scenario candidates reliably get wrong: a team of analysts fluent in SQL, data already sitting in the warehouse, and a model to build. They do not need a data science platform or a new skill. They can build the model where the data already is, in the language they already use. *The skills gap was imaginary.* The humans in that room were qualified the whole time, and an answer that sends them on a course is answering a different question.
 
@@ -66,7 +66,7 @@ For the no-code end of the spectrum the blueprint names **Apps Script** and **Ap
 
 Two products are both called a studio and the difference between them is the entire question.
 
-Both of them are places to work with the **Gemini API**, which is how Gemini is reached programmatically, and that shared foundation is why the two get confused.<sup>[2]</sup> **Google AI Studio** costs nothing and exists for rapid prototyping. **Agent Studio**, formerly Vertex AI Studio, is where you build the thing that has to go live and carry real load.<sup>[2]</sup>
+Both of them are places to work with the **Gemini API**, which is how Gemini is reached programmatically, and that shared foundation is why the two get confused.<sup>[2]</sup> **Google AI Studio** costs nothing and exists for rapid prototyping. **Agent Studio** is where you build the thing that has to go live and carry real load.<sup>[2]</sup>
 
 | The scenario says | The studio |
 |---|---|
@@ -120,7 +120,7 @@ The habit: describe the scenario as "X goes in, Y comes out" before reading the 
 - **Combination questions want the pipeline.** Decompose into transformations and name an API for each, rather than picking the strongest one.
 - **Cloud Run** runs **containers** and **scales to zero**; **Cloud Functions** runs **small event-driven code**; **Cloud Storage** holds **unstructured files**.
 - **BigQuery ML trains a model from SQL**, in place, which is the answer for **analysts who know SQL** and **data already in the warehouse**.
-- **Google AI Studio** is **free, for quick prototyping**. **Agent Studio**, formerly Vertex AI Studio, is for **production at scale**. The distinction is **exploration against production**.
+- **Google AI Studio** is **free, for quick prototyping**. **Agent Studio** is for **production at scale**. The distinction is **exploration against production**.
 - **Edge means running close to the action**, for **latency and unreliable connectivity**. **LiteRT deploys to devices** and **Gemini Nano is the on-device model**.
 - **Apps Script and AppSheet** are the **low-code and no-code** route for functions with no engineers.
 

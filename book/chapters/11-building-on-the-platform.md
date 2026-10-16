@@ -26,13 +26,13 @@ Neither of them trains. *Almost nobody trains.*
 
 ## Agent Platform Is One Platform Doing Four Jobs
 
-Agent Platform is the platform layer on Google Cloud, and until April 2026 it was called Vertex AI. One place covers the whole of machine learning and generative AI work there: the compute underneath, a catalogue of models already trained, the tooling to build with, and the means to put the result into production and keep it running.<sup>[2]</sup><sup>[3]</sup>
+Agent Platform is the platform layer on Google Cloud. One place covers the whole of machine learning and generative AI work there: the compute underneath, a catalogue of models already trained, the tooling to build with, and the means to put the result into production and keep it running.<sup>[2]</sup><sup>[3]</sup>
 
 The reason the exam asks about it so often is that "unified" is the answer to a specific scenario: an organisation that wants one place to get a model, build with it, put it into production and keep it running, rather than four products stitched together. When a scenario lists all four of those activities, the answer is the platform rather than any one component.
 
 | Part | What it does | What it is NOT |
 |---|---|---|
-| Model Garden | A catalogue: discover, customise and deploy existing models from Google, partners and open source<sup>[4]</sup> | Not where you train from scratch, and not a version registry |
+| Model Garden | A catalogue of existing models from Google, partners and open source<sup>[4]</sup> | Not where you train, and not a version registry |
 | Model Builder | Where a model of your own gets built, hand-rolled with a machine learning framework<sup>[2]</sup> | Not needed if a pre-trained model will do |
 | AutoML | The same training, reachable by people without machine learning skills<sup>[2]</sup> | Not a pre-trained model; it still learns from your data |
 | MLOps tooling | Lets teams collaborate to monitor and improve models in production<sup>[2]</sup> | Not a build tool |
@@ -92,7 +92,7 @@ The habit that transfers: say which rung of the ladder the scenario is on before
 - **Ground, tune, or train**, in that order, and **take the lowest rung that works**. Each rung costs more than the one below.
 - **Grounding changes nothing in the model**; it **retrieves at question time**. **Tuning changes behaviour**: format, register, terminology. **Training builds the model.**
 - **Changing facts are a grounding problem.** Tuning teaches **behaviour, not facts**, so a tuned model goes stale.
-- **Agent Platform, formerly Vertex AI, is the unified platform**: **pre-trained models, build tools, deployment and management** in one place. If a scenario lists all of those, **answer with the platform**.
+- **Agent Platform is the unified platform**: **pre-trained models, build tools, deployment and management** in one place. If a scenario lists all of those, **answer with the platform**.
 - **Model Garden is a catalogue** for **discovering, customising and deploying existing** Google, partner and open-source models. **It is not a version registry** and **not where you train from scratch**.
 - **Model Builder trains your own models**; **AutoML trains them with minimal expertise**. AutoML answers a **skills gap, not a data gap**.
 - **Two RAG offerings**: **prebuilt RAG with Agent Search** when you want it managed over your own content, and **RAG APIs** when you are composing your own application.

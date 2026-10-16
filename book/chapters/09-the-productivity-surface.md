@@ -17,11 +17,11 @@ Those are six different products, and **the surface already in the building** is
 | Gemini app | A chat window | Writing, summarising, translating, creating images<sup>[2]</sup> |
 | Gemini Advanced | The same window, with more | Extra capability and enterprise-grade protections, and **Gems**<sup>[2]</sup> |
 | Gemini for Google Workspace | Inside Gmail, Docs, Slides, Meet | Composing mail, generating images in slides, summarising a meeting<sup>[2]</sup> |
-| Gemini for Google Cloud | The cloud console and developer tools | Writing and debugging code, managing and optimising cloud applications, querying data, improving security posture<sup>[2]</sup> |
+| Gemini for Google Cloud | The cloud console and developer tools | Code, cloud operations, data queries, security posture<sup>[2]</sup> |
 | Gemini Enterprise | Across the company's internal systems | Unified search and agents over scattered internal data<sup>[3]</sup> |
 | Gemini Notebook | A set of files you upload | A research assistant grounded in those sources<sup>[2]</sup> |
 
-Two of those names changed in April 2026 and the old names are still in wide use. Gemini Enterprise was **Agentspace**. Gemini Notebook was **NotebookLM**. Expect either.
+Two of those names changed in April 2026. The current ones are in the table, and they are the ones the blueprint uses.
 
 ## Gems Are Saved Instructions, and That Is the Whole Idea
 
@@ -50,6 +50,8 @@ Its structure is worth one paragraph because it explains what the product actual
 Which produces the business benefits the exam asks about, and they are about people rather than infrastructure: knowledge gets shared across systems that previously hid it from each other, employees stop re-finding things, and routine research and data entry can be handed to an agent.
 
 One capability gets named separately in the blueprint and is worth holding as its own answer: **multimodal search**, meaning a single search that spans more than one type of data rather than one search per format.<sup>[1]</sup> When a scenario describes needing to find across text, images and video together, that is the term being tested.
+
+The blueprint asks for the business value of this one and not only its name, so hold the value as well.<sup>[1]</sup> It lands on the person doing the searching: they find material they could not have described in words, in formats they would otherwise have had to search one at a time, which turns a set of disconnected repositories into something a person can actually ask a question of. Every benefit further downstream, the hours saved and the decisions made better, follows from that one. An option that pays somebody else, the storage bill or the administrator or the catalogue team, is answering a question about a different capability.
 
 ## Picking Between Them in One Question
 
@@ -93,9 +95,9 @@ The habit is to name the venue before naming the product, because the venue is s
 - **Gemini app** is the **chat window**: writing, summarising, translating, images. **Gemini Advanced** adds capability, **enterprise-grade protections**, and **Gems**.
 - **A Gem is saved instructions** making responses consistent, for work that is **repeated in a fixed shape**. **Saved info stores facts** about you instead.
 - **Gemini for Google Workspace** is inside **Gmail, Docs, Slides and Meet**. **Gemini for Google Cloud** is for **code, cloud management, data and security posture**.
-- **Gemini Notebook, formerly NotebookLM, stays grounded in the files you upload** and points back to them. The cue is **"these documents, and point to the line"**.
-- **Gemini Enterprise, formerly Agentspace, answers silos**: **unified search and agents over scattered internal sources**. Structure: **data sources become data stores; an app serves search, answers, actions and agents**.
-- **Multimodal search means one search across several data types**, not one search per format.
+- **Gemini Notebook stays grounded in the files you upload** and points back to them. The cue is **"these documents, and point to the line"**.
+- **Gemini Enterprise answers silos**: **unified search and agents over scattered internal sources**. Structure: **data sources become data stores; an app serves search, answers, actions and agents**.
+- **Multimodal search means one search across several data types**, not one search per format. Its value lands on **the person searching**: they **find what they could not have described**, across formats, in one query.
 - **A general assistant cannot satisfy a grounding requirement.** It answers from everything it knows, which is the opposite of the requirement.
 - **On customer-facing benefit questions, the benefit is customer-facing**: **engagement and discovery**, not back-office savings.
 

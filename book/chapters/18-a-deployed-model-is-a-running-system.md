@@ -31,6 +31,18 @@ Two of those collide in a way worth fixing now.
 
 **Feature Store against Model Monitoring.** Both involve watching something. Feature Store manages and serves **feature data**, so it is the answer when the scenario is about the data going in, especially when several models need the same feature defined the same way. Model Monitoring watches **the model's accuracy**, so it is the answer when the scenario is about performance decaying.
 
+## Training-Serving Skew, and Which Product Owns It
+
+One phrase on this material is worth getting exactly right, because it sounds like it belongs to one of those two products and belongs to the other.
+
+**Training-serving skew** is what happens when the feature values a model meets in production stop resembling the ones it was trained on. Nothing breaks and nothing raises an error. The answers simply get worse while every system around the model reports that it is running normally. Google's definition is precise about the mechanism: skew occurs when the distribution of feature data in production deviates from the distribution used to train the model, and detecting it means holding production up against the training data as a baseline.<sup>[4]</sup>
+
+Which settles who owns it. **Detecting training-serving skew is Model Monitoring**, because detection needs that training baseline and a threshold to alert past.<sup>[4]</sup> Feature Store's contribution sits upstream: it is the one place a feature is defined, and both model training and online prediction are served from it, so the values the model learns from and the values it later meets cannot quietly diverge.<sup>[5]</sup> Feature Store is how the condition is prevented and Model Monitoring is how it is noticed.
+
+Feature Store does monitor something of its own, which is the detail that makes the pair confusable. It runs scheduled jobs over feature data to retrieve statistics and detect **feature drift**, meaning the features changing over time, watched on their own account rather than against any model's training set.<sup>[6]</sup>
+
+So the word *monitoring* in a scenario settles nothing by itself. Both of these products monitor, and what decides the answer is the object being watched: feature values in their own right are Feature Store, while a deployed model's incoming data measured against what it was trained on is Model Monitoring.
+
 ## Versioning Is the One With the Business Consequence
 
 Worth a paragraph on its own, because the exam asks about it and the reason matters.
@@ -66,6 +78,7 @@ Every distractor is a real Google product from the same platform, which makes th
 | Describes accuracy falling over months | Model Monitoring, detecting drift | Retraining, which is the response |
 | Manages feature data used by a model | Feature Store | Model Monitoring |
 | Needs one feature definition shared across models | Feature Store | A database, or a data warehouse |
+| Names training-serving skew, or data unlike the training set | Model Monitoring, which detects it | Feature Store, which prevents it |
 | Automates repeated machine learning steps | Pipelines | A scheduler, or a custom script |
 | Asks whether a live tool is delivering value | Operational KPIs for that function | Model accuracy, or usage counts |
 
@@ -77,6 +90,7 @@ The habit is to name the object before naming the product: versions, accuracy, f
 - **Model Registry holds your models and their versions**, with metadata, ready to deploy. **Model Garden** is a **catalogue to pick from**. The split is **keeping track against choosing**.
 - **Model Monitoring watches accuracy over time**, which is **how drift is detected**. **Retraining** is the **response**, not the **detection**.
 - **Feature Store manages and serves feature data**, and is the answer when **several models need one feature defined the same way**.
+- **Training-serving skew** is production feature data drifting away from the distribution a model was trained on. **Model Monitoring detects it**, against the training baseline. **Feature Store prevents it**, by serving one definition to training and to prediction alike.
 - **Pipelines automate the machine learning steps**, repeatably and on a schedule.
 - **Versioning carries the accountability consequence**: without it you cannot say **what is running**, **what ran last month**, or **why a past decision came out as it did**.
 - **Automatic model upgrades** mean the thing you tested **may not be the thing running next quarter**. Untested, and on the blueprint.
@@ -91,3 +105,4 @@ The habit is to name the object before naming the product: versions, accuracy, f
 3. Machine learning on Gemini Enterprise Agent Platform. https://docs.cloud.google.com/gemini-enterprise-agent-platform/machine-learning
 4. Model Monitoring overview. https://docs.cloud.google.com/gemini-enterprise-agent-platform/machine-learning/model-monitoring/overview
 5. Feature Store overview. https://docs.cloud.google.com/gemini-enterprise-agent-platform/machine-learning/featurestore/latest/overview
+6. Monitor feature data in Feature Store. https://docs.cloud.google.com/gemini-enterprise-agent-platform/machine-learning/featurestore/latest/monitor-features

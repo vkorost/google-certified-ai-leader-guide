@@ -88,7 +88,7 @@ The blueprint asks for the Google Cloud tools at each stage, not just the stages
 | Rows in tables, from a relational database | Cloud SQL<sup>[6]</sup> |
 | Large volumes to be queried and analysed where they sit | BigQuery<sup>[3]</sup> |
 
-Training and deployment both live on Agent Platform, formerly Vertex AI, which is where models are built, tuned, deployed and managed. Chapter 11 takes that platform apart service by service.
+Training and deployment both live on Agent Platform, which is where models are built, tuned, deployed and managed. Chapter 11 takes that platform apart service by service.
 
 There is a trap sitting in this table, and it caught enough candidates to be worth naming. **The analysis-tool answer** offers a strong product for the wrong stage. BigQuery is a genuinely excellent place to analyse data at scale, and an option that praises it for that is saying something true. If the scenario is about *gathering* streaming events, true is not the same as correct. Match the stage first, the product second.
 

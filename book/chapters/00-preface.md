@@ -26,11 +26,11 @@ That is worth one paragraph and no more. The narrator has no career to draw on, 
 
 ## The names changed in April 2026
 
-At Cloud Next 2026 Google renamed most of the surface this exam covers. Vertex AI became Gemini Enterprise Agent Platform, usually shortened to Agent Platform. Vertex AI Search became Agent Search, Vertex AI Studio became Agent Studio, Agentspace became Gemini Enterprise, and NotebookLM became Gemini Notebook.
+At Cloud Next 2026 Google renamed most of the surface this exam covers, and the names in this book are the ones that came out of that. The retired generation is not taught here and is not listed. Both of the documents Google publishes for this exam name the current products and name no retired one anywhere in either of them, which is the strongest available statement of what the exam expects you to have in your head.
 
-The exam guide uses the new names. A great deal of material still in circulation uses the old ones, and Google's own documentation is mid-transition: the Dialogflow CX pages currently open by noting that some products and features are being renamed.
+A good deal of material still in circulation predates the rename, so you may well have studied some of it. The thing to know is that a name you have to translate is a name you will not reach in time, and the exam does not give you the ninety seconds the translation takes.
 
-**This book carries both names**, as `Vertex AI Search (now Agent Search)` on first use in a chapter, and the current name after that. Nobody outside Google knows whether the exam's own questions were rewritten with the rebrand, and a guide that bet on one answer would be wrong half the time if it bet wrong. Two products that sound like they belong to the retired generation were not renamed at all, Dialogflow CX and Contact Center AI, and a familiar old name is not evidence of a wrong answer.
+Two products that sound like they belong to an earlier generation were never part of the rename at all, and both have current documentation: Dialogflow CX and Contact Center AI. A name that feels dated is not evidence of a wrong answer.
 
 ## The exam itself
 

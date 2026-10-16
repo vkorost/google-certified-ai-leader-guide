@@ -16,7 +16,7 @@ Google's six: data dependency, knowledge cutoff, bias, fairness, hallucination, 
 
 | Limitation | What it is | How it shows up |
 |---|---|---|
-| **Data dependency** | Performance rests on the training data, so flawed or incomplete data flows through to the output<sup>[2]</sup> | Consistently poor results on a whole category, traceable to what the model learned from |
+| **Data dependency** | Performance rests on the training data, so flaws in it reach the output<sup>[2]</sup> | Consistently poor results across a whole category |
 | **Knowledge cutoff** | Training stopped at a date, so the model may know nothing after it<sup>[2]</sup> | Confident answers about a world that has since changed |
 | **Bias** | Large training sets carry biases, and a model can amplify even subtle ones<sup>[2]</sup> | Systematically different treatment of comparable cases |
 | **Fairness** | Whether outcomes are equitable, which has to be assessed rather than assumed<sup>[2]</sup> | A model that is accurate overall and unequal across groups |

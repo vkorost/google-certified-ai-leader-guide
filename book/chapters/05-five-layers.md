@@ -49,7 +49,7 @@ The two confusions, both common:
 | The model being served | The algorithm itself | Model |
 | The thing that pursues a goal using tools | Autonomous action | Agent |
 
-On Google Cloud the platform layer is Agent Platform, formerly Vertex AI. Chapter 11 is about what it contains.
+On Google Cloud the platform layer is Agent Platform. Chapter 11 is about what it contains.
 
 ## Models, Agents and Applications
 

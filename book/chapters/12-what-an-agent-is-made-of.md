@@ -16,9 +16,9 @@ The phrasing the exam tends to put in the right answer is the practical version 
 
 | Part | What it contributes |
 |---|---|
-| Model | The thinking. Algorithms that have learned patterns from data, and can predict or produce content<sup>[2]</sup> |
+| Model | The thinking. Algorithms that learned patterns from data and can produce content<sup>[2]</sup> |
 | Tools | The reach. Whatever lets it touch data, systems or hardware outside itself<sup>[2]</sup> |
-| Reasoning loop | The motion. It takes in what is happening, makes sense of it, works out a next step, and does it, over and over<sup>[2]</sup> |
+| Reasoning loop | The motion. It observes, interprets, decides a next step and acts, over and over<sup>[2]</sup> |
 
 The **reasoning loop** is examined by name, so learn it as a cycle rather than a list: notice, interpret, plan, act, and begin again. When a question describes a repeating process of watching, working out, deciding and doing, that cycle is the term being asked for. Prompt engineering is usually what drives each turn of it.
 

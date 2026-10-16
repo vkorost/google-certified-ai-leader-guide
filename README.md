@@ -2,11 +2,13 @@
 
 ### What the Exam Actually Asks You to Decide
 
-A practitioner guide for Google Cloud's **Generative AI Leader** certification: 22 chapters, around 43K words, covering all 15 objectives across the four exam sections. Core concepts and the boundaries between them, how a model learns and the lifecycle around it, data you can actually use, the five layers of the landscape, Google's four foundation models, the products from the Gemini app to Agent Platform, agents and what they can reach, the pre-built API shelf, model limitations and their remedies, prompting, grounding, sampling settings, running a deployed model, and the strategy, security and responsibility work a leader actually owns.
+A practitioner guide for Google Cloud's **Generative AI Leader** certification: 22 chapters, around 47K words, covering all 15 objectives across the four exam sections. Core concepts and the boundaries between them, how a model learns and the lifecycle around it, data you can actually use, the five layers of the landscape, Google's four foundation models, the products from the Gemini app to Agent Platform, agents and what they can reach, the pre-built API shelf, model limitations and their remedies, prompting, grounding, sampling settings, running a deployed model, and the strategy, security and responsibility work a leader actually owns.
 
 The editorial position is this: nearly every wrong answer on this exam is something a competent leader would really do. A technique chosen before the problem was named, a true statement about a product that answers a question nobody asked, half of a two-sided recommendation. Elimination by obvious nonsense, which carries people through a lot of technical exams, does very little here. So the book argues each choice to the point where the boundary between two sensible options is visible, on the theory that reasoning transfers to a scenario nobody has seen and a memorised product list does not.
 
 The other thing worth knowing before you start: **the product documentation cannot settle half of this exam.** `docs.cloud.google.com` documents products thoroughly, and this is a leader exam that spends a third of its weight on judgement. Three objectives, covering prompt engineering, implementation steps and responsible AI, have no product documentation behind them at all. That is also where a guide earns its keep, which is why sections 3 and 4 carry 35% of the exam and more than a third of the chapters.
+
+> **Tested.** I sat the Generative AI Leader exam on 16 October 2026 and [passed](https://www.credly.com/badges/c97483e0-1689-4607-8f7a-dfd4abfb1e04).
 
 ## How the chapters are built
 
@@ -60,7 +62,7 @@ Every chapter below links to its Markdown source. The PDF and EPUB carry the sam
 21. [Secure AI Is a Lifecycle Property, Not a Product](./book/chapters/21-secure-ai.md)
 22. [Responsible AI Is Four Obligations You Can Name](./book/chapters/22-responsible-ai.md)
 
-**Back matter**: [Coverage Map](./book/chapters/95-coverage-map.md) · [Glossary](./book/chapters/96-glossary.md)
+**Back matter**: [The Services, by Name](./book/chapters/94-services.md) · [Coverage Map](./book/chapters/95-coverage-map.md) · [Glossary](./book/chapters/96-glossary.md)
 
 ## Why the chapters are not in exam order
 
@@ -104,13 +106,13 @@ Those recordings ground no sentence in the book. They were read as a list of top
 
 The book itself was assembled with Claude Code using techniques described in [weekend-diy-book](https://github.com/vkorost/weekend-diy-book): per-chapter assembly under explicit constraints, automated gates on every chapter, generated coverage and vocabulary checks, and a build that refuses to run until all of them pass. Every claim about how something behaves traces to a documentation page, and the endnote carries that page's own URL, so you are never handed a title you then have to go and search for.
 
-## The names changed in April 2026, and the book carries both
+## The names changed in April 2026, and the book uses the current ones
 
-At Cloud Next 2026 Google renamed most of the surface this exam covers. Vertex AI became Gemini Enterprise Agent Platform, Vertex AI Search became Agent Search, Vertex AI Studio became Agent Studio, Agentspace became Gemini Enterprise, NotebookLM became Gemini Notebook.
+At Cloud Next 2026 Google renamed most of the surface this exam covers. The book teaches the names that came out of that rename and does not list the retired ones anywhere.
 
-The exam guide uses the new names. A great deal of material still in circulation uses the old ones, and Google's own documentation is mid-transition: the Dialogflow CX pages currently open by noting that some products and features are being renamed. So the book carries **both** names, because nobody outside Google knows whether the exam's own questions were rewritten with the rebrand, and a guide that bet on one answer would be wrong half the time if it bet wrong.
+That decision is worth showing the evidence for, because a great deal of material still in circulation predates the rename and may be what you have been studying from. **The five renamed products appear under their current names forty-five times across Google's two exam documents, and under their retired names not once.** Those two documents are the only authority on what is testable, they were published for this exam, and they are unanimous about it. A name you have to translate in your head is a name you will not reach in time.
 
-Two products that sound like they belong to the retired generation were not renamed at all, Dialogflow CX and Contact Center AI, and the book says so, because rejecting an option for having a dated-sounding name is pattern-matching rather than knowledge.
+Google's own product documentation is still mid-transition in places, which is why the question comes up at all: the Dialogflow CX pages currently open by noting that some products and features are being renamed. And two products that sound exactly like they belong to the retired generation were never part of the rename, Dialogflow CX and Contact Center AI, which the book says plainly, because rejecting an option for having a dated-sounding name is pattern-matching rather than knowledge.
 
 ## Download
 
@@ -122,7 +124,7 @@ Both are attached to the [latest release](https://github.com/vkorost/google-cert
 ## What's in this repo
 
 - `README.md`: this file.
-- `book/chapters/`: every chapter as an individual Markdown file, plus the preface, the coverage map, and the glossary. Endnotes sit at the end of each chapter that has them, with the source URL in the note. In the built book they are collected into a single appendix, grouped by chapter.
+- `book/chapters/`: every chapter as an individual Markdown file, plus the preface, the service roster, the coverage map, and the glossary. Endnotes sit at the end of each chapter that has them, with the source URL in the note. In the built book they are collected into a single appendix, grouped by chapter.
 - `book/Google-AI-Leader-Certification-Guide-Cover.jpg`: the cover.
 - [`LICENSE`](./LICENSE): CC BY-NC-SA 4.0.
 
@@ -146,7 +148,7 @@ If you are after the Anthropic credentials instead, [claude-certified-developer-
 
 ## Disclaimer
 
-This repository is an independent, unofficial study guide. It is not produced, endorsed, sponsored, or reviewed by Google. "Google", "Google Cloud", "Gemini", "Vertex AI" and "Generative AI Leader" are trademarks of Google LLC, used here for descriptive reference only.
+This repository is an independent, unofficial study guide. It is not produced, endorsed, sponsored, or reviewed by Google. "Google", "Google Cloud", "Gemini", "Agent Platform" and "Generative AI Leader" are trademarks of Google LLC, used here for descriptive reference only.
 
 ## Author
 

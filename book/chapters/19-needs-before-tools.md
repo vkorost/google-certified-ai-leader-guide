@@ -58,6 +58,14 @@ Google draws a line that this exam tests from both sides.
 
 Those two look contradictory and are not. The distinction is who holds the decision. Automating a repetitive task means nobody looks at each instance. Augmenting a strategic task means a human is still deciding, with better material in front of them.
 
+Which makes three kinds of work that augmentation is not, failing for three unrelated reasons. The reasons matter more than the list, because an option set can offer all three at once and read as a ranking of good and bad uses of gen AI when it is nothing of the kind.
+
+**Repetitive, rule-governed work** is the first, and it is the one directly above. Gen AI is good at it and it is a perfectly sound thing to do with it. It is automation rather than augmentation, because there is no thinking in it to augment.
+
+**Work whose output has to be exactly right** is the second. Reconciliation, financial reporting, anything checked against a figure that is either correct or not. Chapter 14 is about why: a model that produces fluent language and the occasional confident invention is the wrong instrument where every output must be exactly right, and no amount of strategic framing changes that.
+
+**Work on sensitive material** is the third and the one that catches people, because what the options say about it is entirely true. Medical diagnosis and legal advice are precisely where Google puts a human in the loop, and chapter 14 lists it as one of the five recommended remedies against a known limitation. That makes it an answer about controlling a risk. It is not an answer about where gen AI widens somebody's thinking, and on a question about augmentation it is correct about everything except the question it was asked.
+
 Which produces the shape of a right answer on responsible-use questions. When a function asks how to use gen AI to work faster, the answer that wins is usually **assistive**: drafting the communication, surfacing the insight, preparing the material for a person who then does their job. The answers that lose either hand the judgement over, move sensitive data somewhere it should not go, or replace a working system that nobody asked to replace.<sup>[1]</sup><sup>[2]</sup>
 
 ## How Wrong Answers Are Built on This Material
@@ -93,6 +101,7 @@ The habit: before reading the options, say what the problem is and what would co
 - **Code generation means suggesting snippets and completing functions**, and it covers **generating tests**. The benefit of generated tests is **less manual validation effort**, never **a guarantee**.
 - **Assess, recommend, generate and track together is an agent.** A recommendation engine covers **one quarter** of it.
 - **Automate the repetitive; augment the strategic.** The difference is **who still holds the decision**.
+- **Three kinds of work are not augmentation**, for unrelated reasons: **rote work** is automation, **work that must be exactly right** is the wrong instrument, and **sensitive work** is where **human oversight** belongs. Each is a true statement about gen AI, and none of them answers a question about augmenting judgement.
 - **On responsible-use questions the winning answer is assistive**: **draft it, surface it, prepare it** for a person who then decides.
 
 ## Endnotes for this chapter

@@ -18,9 +18,9 @@ The first complaint is a setting, and a single one at that. The second is not a 
 
 | Setting | What it controls | Turn to it when |
 |---|---|---|
-| **Token count** | Meaningful chunks of text, which is how length and capacity get measured<sup>[2]</sup> | You need to reason about how much text is involved, or what it costs |
-| **Temperature** | How adventurous the model's word choices are; its creativity, or its randomness<sup>[2]</sup> | Output is too varied and you want it focused, or too flat and you want range |
-| **Top-p** | Also called nucleus sampling. It bounds the pool of candidate tokens by accumulated probability<sup>[2]</sup> | The same purpose as temperature, by a different route |
+| **Token count** | Meaningful chunks of text: how length and capacity get measured<sup>[2]</sup> | You are reasoning about how much text, or what it costs |
+| **Temperature** | How adventurous the word choices are: creativity, or randomness<sup>[2]</sup> | Output is too varied, or too flat |
+| **Top-p** | Nucleus sampling: bounds the candidate tokens by accumulated probability<sup>[2]</sup> | The same purpose as temperature, by another route |
 | **Safety settings** | Screening the output for harmful or inappropriate material<sup>[2]</sup> | The concern is harm rather than error |
 | **Output length** | The maximum length of what gets generated<sup>[2]</sup> | Responses are too long, or inconsistently long |
 

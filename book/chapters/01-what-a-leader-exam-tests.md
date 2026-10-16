@@ -41,13 +41,19 @@ That last column is the useful one, because the four sections reward four differ
 
 Note what the missing per-objective weight costs you. Sections 1 and 2 are 65% of the exam between them, and inside section 1 there is no way to know from Google whether the models objective is worth twice the data objective or half of it. **Revising by objective is revising at a granularity Google did not publish.** Revise by section, and treat every objective inside a section as capable of carrying a question.
 
-## Three Question Shapes, and the One That Has a Published Answer
+## Four Question Shapes, and the One That Has a Published Answer
 
-Almost everything on this exam arrives in one of three shapes.
+Almost everything on this exam arrives in one of four shapes.
 
 The **definition** shape asks what something is: which option describes a multimodal application, which one defines generative AI. These reward precision at the edge of a concept rather than familiarity with it. Knowing roughly what unsupervised learning is will not separate two options that both sound right.
 
 The **fit** shape gives you a situation and asks which product, model or technique belongs in it. This is most of section 2 and much of section 3. The situation always contains the deciding detail, and the next section is about finding it.
+
+The **value** shape asks what a capability is *for*. Not which product does this, but what the business gets from the product once it has it. This shape is easy to miss because it looks like the fit shape and is answered differently, and it is in the blueprint in black and white: seven separate bullets ask you to recognise the functionality, the use cases **and the business value** of a named Google offering.<sup>[1]</sup> A third of the heaviest section can therefore ask what something is for rather than what it is called.
+
+It has its own rule, and the rule is about location. A capability operates somewhere, for somebody. **The answer is the first-order effect, in the place the capability actually acts, for the person who touches it.** A search that shoppers use pays the shopper first: they find things, they discover more, and the revenue follows as a consequence. A tool that analyses conversations after the fact pays the analyst and the supervisor, not the caller. Name the capability in one phrase, say who touches it, and keep only the options whose benefit lands on that person.
+
+What makes this shape hard is that the losing options are not wrong about anything. They are real benefits, often excellent ones, belonging to a different capability or a different department: lower catalogue-management costs, better demand forecasting, improved standing in somebody else's search rankings. Each is true of some product. None is true of this one. An option that is the right answer to a question nobody asked is the commonest wrong answer on this exam in any shape, and the rest of this chapter is largely about seeing it.
 
 The **practice** shape is the one to notice. It says *according to Google-recommended practices*, or *Google-recommended*, and then asks what to do, or what to do first. That phrasing is not decoration. It means Google has published an answer, and the exam wants Google's answer rather than a defensible one.
 
@@ -77,23 +83,15 @@ None of those is a product name, and that is the point. The scenario describes a
 
 Two more traps live in this gap. **The maximalist answer** offers several good practices at once: tune the model, add retrieval, put a human in the loop, monitor for drift. Nothing in it is wrong, which is why it survives a first read. It loses because the scenario named one constraint and another option addresses exactly that one. And **the right answer to a different question** is an option that would win if the deciding clause had said something else. It is the most common wrong answer on this exam, and the most instructive, because the way to see through it is to say out loud which question it answers.
 
-## The Product Names Changed, and Both Names Still Matter
+## The Product Names Changed, and the Current Ones Are the Ones to Learn
 
-In April 2026 Google renamed most of this surface. The exam guide uses the new names. A great deal of material still in circulation uses the old ones, and Google's own documentation is mid-transition: the Dialogflow CX documentation currently opens by noting that some products and features "are in the process of being renamed."<sup>[3]</sup> The platform release notes write it as Agent Platform, "formerly Vertex AI."<sup>[4]</sup>
+In April 2026 Google renamed most of this surface, and this book uses the names that came out of that rename. It does not list the retired ones, and the reason is the exam guide and the study guide themselves: between them, Google names the current products more than forty times and names no retired product once. The two documents written to tell you what the exam covers are unanimous, and there is no better evidence available about what vocabulary a question is likely to be written in.
 
-| Old name | Current name |
-|---|---|
-| Vertex AI | Gemini Enterprise Agent Platform, or Agent Platform |
-| Vertex AI Search | Agent Search |
-| Vertex AI Studio | Agent Studio |
-| Vertex AI Agents | Conversational Agents |
-| Vertex AI Agent Builder | Agent Platform |
-| Agentspace | Gemini Enterprise |
-| NotebookLM | Gemini Notebook |
+That is worth saying plainly because a great deal of material still in circulation predates the rename. If you have studied some of it, the names you learned are not wrong about the products. They are simply one translation step behind a scenario written in the current vocabulary, and a translation is what you will not reach for when there are nine minutes left and fourteen questions.
 
-Learn these as pairs rather than as replacements. You may meet either name, and an option naming the old one is not wrong for being old.
+Google's own documentation is still mid-transition in places: the Dialogflow CX documentation currently opens by noting that some products and features "are in the process of being renamed."<sup>[3]</sup>
 
-Which produces one final trap, and it is the mirror image of the one candidates expect. **The obsolete-name answer** is the assumption that a familiar old name must be the distractor. Two products that sound like they belong to the retired generation were not renamed at all: Dialogflow CX and Contact Center AI both have current documentation.<sup>[3]</sup> Rejecting an option because its name feels dated is not knowledge. It is pattern-matching on vocabulary, and it will take questions off you in the section that carries more weight than any other.
+Which produces one trap, and it is the mirror image of the one candidates expect. **The obsolete-name answer** is the assumption that a name which sounds like an older generation must be the distractor. Two products that sound exactly like that were never part of the rename and both have current documentation: Dialogflow CX and Contact Center AI.<sup>[3]</sup> Rejecting an option because its name feels dated is not knowledge. It is pattern-matching on vocabulary, and it will take questions off you in the section that carries more weight than any other.
 
 ## How Wrong Answers Are Built on This Material
 
@@ -112,7 +110,9 @@ They are built in five ways, and all five are about altitude or about scope rath
 | Names a business problem and asks what comes first | Clarify the problem and the desired outcome | A technique, chosen before the problem is defined |
 | Says "Google-recommended" | The published recommendation, in full | Your own defensible alternative, or half of Google's |
 | Describes one specific failure | The single remedy aimed at that failure | A bundle of good practices, one of which fits |
-| Offers a familiar retired product name | Whichever option fits, old name or new | Rejecting the option because the name looks dated |
+| Offers a product name that sounds dated | Whichever option fits; some current names sound old | Rejecting the option because the name looks dated |
+| Asks what a capability is for | The first-order benefit, where the capability acts | A real benefit belonging to another department |
+| Asks what type or kind of solution | A category: a model, a system, a platform, an agent | A product name, which cannot answer a question about types |
 | Reads as strategy with no technical content | Still often a named Google service | The option made entirely of outcome words |
 
 One habit transfers past all of it. Before choosing, say which question each remaining option is the right answer to. Two of the four usually answer a question you were not asked.
@@ -126,13 +126,13 @@ One habit transfers past all of it. Before choosing, say which question each rem
 - **Half of a two-sided recommendation is a wrong answer.** The strategy advice pairs **leadership setting direction with employees finding applications**; an option with only one side is incomplete, not partially right.
 - **Find the clause you could delete to change the answer.** That clause is the question; the rest of the scenario is furniture.
 - **Five ways wrong answers are built**: the **implementer's** answer, the **executive-summary** answer, the **maximalist** answer, **half of Google's** answer, and the **right answer to a different question**. None of them is nonsense, so **elimination by obvious error will not work**.
-- **Carry both product names.** Vertex AI is **Agent Platform**, Vertex AI Search is **Agent Search**, Agentspace is **Gemini Enterprise**. But **Dialogflow CX and Contact Center AI were never renamed**, so a dated-sounding name is not evidence of a wrong option.
-- The exam is **90 minutes, 50 to 60 multiple choice questions, $99, valid three years, no prerequisites**, delivered online- or onsite-proctored.<sup>[5]</sup>
+- **Learn the current product names only.** Google's two exam documents name the current products throughout and **no retired product anywhere**. But **Dialogflow CX and Contact Center AI were never renamed**, so a dated-sounding name is not evidence of a wrong option.
+- **Four question shapes**: **definition**, **fit**, **value** and **practice**. The value shape asks **what a capability is for**, and its answer is the **first-order effect on whoever touches it**, with the business outcome following as a consequence.
+- The exam is **90 minutes, 50 to 60 multiple choice questions, $99, valid three years, no prerequisites**, delivered online- or onsite-proctored.<sup>[4]</sup>
 
 ## Endnotes for this chapter
 
 1. Generative AI Leader certification exam guide. https://services.google.com/fh/files/misc/generative_ai_leader_exam_guide_english.pdf
 2. Generative AI Leader certification exam study guide. https://services.google.com/fh/files/misc/generative_ai_leader_study_guide_english.pdf
 3. Dialogflow CX documentation. https://docs.cloud.google.com/dialogflow/cx/docs
-4. Gemini Enterprise Agent Platform release notes. https://docs.cloud.google.com/gemini-enterprise-agent-platform/release-notes
-5. Generative AI Leader certification. https://cloud.google.com/learn/certification/generative-ai-leader
+4. Generative AI Leader certification. https://cloud.google.com/learn/certification/generative-ai-leader

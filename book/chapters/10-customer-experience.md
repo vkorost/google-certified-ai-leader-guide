@@ -23,7 +23,7 @@ A conversational agent is the customer-facing virtual agent: it holds the conver
 
 The cue is that the **customer** is on the other end. Self-service, deflection, answering routine questions without a person, available outside working hours. And the escalation path matters: a scenario that mentions handing difficult cases to a human is describing a conversational agent working properly rather than a limitation.
 
-Naming, because it is genuinely confusing here. These were **Dialogflow CX** and are also referred to as Vertex AI Agents in older material. Dialogflow CX still has current documentation and was not retired, so an option naming it is not wrong for being old.<sup>[5]</sup>
+Naming, because it is genuinely confusing here. These were and still are built with **Dialogflow CX**, which has current documentation and was not retired, so an option naming it is not wrong for sounding like an earlier generation.<sup>[5]</sup>
 
 ## Agent Assist Helps the Human, While the Call Is Live
 
@@ -58,9 +58,19 @@ The cue is **scope**. When the scenario asks for the whole thing in one package,
 
 One more product sits in this objective and it is easy to misfile, because it is about search rather than conversation.
 
-**Agent Search**, previously Vertex AI Search, provides search and recommendation over your own business content.<sup>[2]</sup> A company that wants its website visitors to search its catalogue, documentation and knowledge base and get good answers is describing Agent Search.
+**Agent Search** provides search and recommendation over your own business content.<sup>[2]</sup> A company that wants its website visitors to search its catalogue, documentation and knowledge base and get good answers is describing Agent Search.
 
 The contrast the blueprint draws is between that and **Google Search**: one searches your content, the other searches the world.<sup>[1]</sup> That distinction returns in chapter 16, where it becomes a question about grounding, because what a model is allowed to retrieve from is the same decision seen from the other side.
+
+## A Shop Is a Different Search Problem
+
+There is a fourth search surface, and neither official document names it. It is here because a retail scenario is one of the most natural things a question writer reaches for, and because **the product that answers it is not Agent Search**.
+
+**AI Commerce Search** is search and recommendation built for a retail catalogue, across websites and mobile applications.<sup>[7]</sup> It is the same underlying idea as Agent Search aimed at a narrower target: a shopper, a product, a basket.
+
+What separates the two in a question is rarely the word *retail*. **It is that a shopping scenario almost always states two requirements rather than one**: helping a buyer locate what they came for, and putting something else in front of them afterwards. Search is one capability and recommendation is another, and an option offering either on its own has answered half the question while sounding entirely reasonable.
+
+So **count the requirements before choosing the product**. That habit is worth more here than the product name, because it is the same habit that settles any question offering a component where the stem described a system.
 
 ## The Two Google Documents Disagree About These Names
 
@@ -74,7 +84,7 @@ Those are Google's own two documents, published for the same exam, naming the sa
 
 The distractors here are the other three products in the suite, and each one is a correct description of something in the same room. Reading the product names and matching the one you recognise is exactly the behaviour these items are built to punish.
 
-- **The wrong-beneficiary answer.** A customer-facing product where the agent needed the help, or the reverse. This is the single most common error on the objective, because both options involve a conversation and both improve the same metric.
+- **The wrong-beneficiary answer.** A customer-facing product where the agent needed the help, or the reverse. This is the single most common error on the objective, because both options involve a conversation and both improve the same metric. It has a second costume, worn on questions that ask what a capability is *for* rather than which product provides it: the option offers a genuine improvement on the business's own side of the counter, the catalogue team's costs or next quarter's demand forecast, when the capability in the stem is one a shopper touches. Worst of that family is the option about better search engine rankings, which is a real benefit of search engine optimisation and has nothing to do with the search your own site offers its visitors. It survives a first read because it contains the word *search*.
 - **The wrong-tense answer.** Agent Assist where the scenario is about analysing conversations that already happened, or Insights where the need is live help. The giveaway is in the verb: *are* calling against *have been* calling.
 - **The platform-for-a-feature answer.** CCaaS offered for a single capability, or a single product offered where the whole estate is being replaced.
 - **The misfiled-search answer.** Agent Search offered for a contact centre problem, or a contact centre product offered for a website search problem.
@@ -86,6 +96,7 @@ The distractors here are the other three products in the suite, and each one is 
 | Asks what customers have been contacting about | Conversational Insights | Agent Assist, because both help agents |
 | Lists telephony, routing, virtual agents and assistance | Contact Center as a Service | One component of it |
 | Describes searching the company's own catalogue | Agent Search | A contact centre product |
+| Asks what a shopper-facing search is for | Discovery and engagement, with sales following | Catalogue costs, demand forecasts, search rankings |
 | Mentions escalating hard cases to a human | Conversational Agents, working correctly | Treating escalation as a failure of the product |
 
 The habit: before reading the options, answer two questions in four words. Who is helped, and when. Customer or agent, during or after.
@@ -97,7 +108,8 @@ The habit: before reading the options, answer two questions in four words. Who i
 - **Agent Assist helps the live agent in real time** with suggested responses and surfaced knowledge. It **never speaks to the customer**.
 - **Conversational Insights is past tense**: analysing **completed conversations**, bot and human, for **topics, sentiment and trends**.
 - **Contact Center as a Service is the platform**: **telephony, routing, IVR, virtual agents and agent assistance** in one cloud-native package. The cue is **scope**.
-- **Agent Search, formerly Vertex AI Search, searches your own content.** **Google Search** searches **the world**. That pairing returns as a grounding question.
+- **Agent Search searches your own content.** **Google Search** searches **the world**. That pairing returns as a grounding question.
+- **A shop takes AI Commerce Search, not Agent Search**, and the tell is that a retail stem states **two** requirements: locating a product **and** recommending others. **Count the requirements** before choosing the product.
 - **Google's two documents name these products differently.** Exam guide: **Customer Engagement Suite**. Study guide: **Gemini Enterprise for Customer Experience**. **Learn the functions**, and **recognise both labels**.
 - **Dialogflow CX was not retired** and still has current documentation, so an option naming it is **not wrong for sounding dated**.
 
@@ -109,3 +121,4 @@ The habit: before reading the options, answer two questions in four words. Who i
 4. Conversational AI documentation. https://docs.cloud.google.com/conversational-ai/docs
 5. Dialogflow CX documentation. https://docs.cloud.google.com/dialogflow/cx/docs
 6. Contact Center AI Platform documentation. https://docs.cloud.google.com/contact-center/ccai-platform/docs
+7. Retail documentation. https://docs.cloud.google.com/retail/docs

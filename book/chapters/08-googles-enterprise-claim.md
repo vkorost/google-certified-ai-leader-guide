@@ -42,9 +42,9 @@ This is the one part of the objective with concrete nouns in it, so it is the on
 
 | Component | What to know |
 |---|---|
-| TPUs | Google's own custom-designed processors, built for machine learning rather than general computing. Specialised chips whose strength is massively parallel work<sup>[4]</sup> |
+| TPUs | Google's own chips, designed for machine learning rather than for general computing<sup>[4]</sup> |
 | GPUs | The general-purpose accelerator alternative, widely used for the same workloads |
-| AI Hypercomputer | A supercomputing system combining performance-optimised hardware, open software and ML frameworks, aimed at training, tuning and serving<sup>[5]</sup> |
+| AI Hypercomputer | One system: optimised hardware, open software and ML frameworks together<sup>[5]</sup> |
 | Data centres | The physical estate underneath all of it |
 | Cloud computing | Consumption without owning the estate |
 

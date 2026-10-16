@@ -10,6 +10,8 @@ The options will include a purely top-down approach, in which leadership owns th
 
 Google's position is explicit: combine a **top-down** approach, where leadership sets the vision and the strategy, with a **bottom-up** approach, where employees identify the practical applications and feed back what they find.<sup>[2]</sup> The option that names both, however it is labelled, is the answer.
 
+*However it is labelled* is doing real work in that sentence. Google's own documents name the two halves and never name the combination, so **a question needing a single word for it has to invent one**, and the word it usually reaches for is **multi-directional**. That option will look wrong on the page for exactly the reason it is right: the other three are quotations and it is not. The one that **is not a quotation** is the only one that is **not half an answer**.
+
 **Two directions at once** is the idea, and it is worth understanding rather than memorising, because the reasoning transfers. Leadership knows what the business is for and cannot know where the friction actually is. The humans doing the work know exactly where the friction is and cannot authorise anything. Neither group can run this alone, and a strategy that comes from only one of them fails in a predictable direction: top-down alone produces initiatives nobody needed, and bottom-up alone produces experiments that never scale.
 
 ## The Six Things a Strategy Has To Carry
@@ -85,6 +87,7 @@ The habit: for any strategy question, ask whether the option covers both directi
 ## What to Remember
 
 - **Two directions at once.** Google recommends **combining top-down**, where leadership sets vision and strategy, **with bottom-up**, where employees find the practical applications and give feedback.
+- **Google names the halves and never names the combination**, so an option has to invent a word for it, often **multi-directional**. The option that **is not a quotation** is the one that is **not half an answer**.
 - **Half of a two-sided recommendation is a wrong answer.** It is the most convincing distractor here because it is **true as far as it goes**.
 - **Six strategy elements**: **strategic focus, exploration, responsible AI, resourcing, impact, continuous improvement**.
 - **Focus and exploration pull against each other on purpose.** Holding both is **the job**, not a contradiction to resolve.
