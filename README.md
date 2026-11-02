@@ -1,4 +1,4 @@
-![Google Certified AI Leader — What the Exam Actually Asks You to Decide](./book/google-certified-ai-leader-guide-social-800x400.jpg)
+[![Google Certified AI Leader — What the Exam Actually Asks You to Decide](./book/google-certified-ai-leader-guide-social-800x400.jpg)](https://github.com/vkorost/google-certified-ai-leader-guide/releases/latest)
 
 # Google Certified AI LEADER (GAIL)
 
